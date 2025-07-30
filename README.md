@@ -30,7 +30,7 @@
 ### 📫 Contact
 
 - 📧 Mail: alperen.yardimci@its-stuttgart.de  
-- 💼 LinkedIn: [linkedin.com/in/alpereny01](https://linkedin.com/in/alpereny01) <!-- (Varsa gerçek bağlantıyı düzenle) -->
+- 💼 LinkedIn: [linkedin.com/in/alperen-yardimci-b107952a4/](https://linkedin.com/in/alperen-yardimci-b107952a4/)
 
 ---
 
