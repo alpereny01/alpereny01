@@ -1,0 +1,42 @@
+name: Hai-Grafik
+
+# Erzeugt täglich die Contributions-Grafik und legt sie auf den Zweig "grafik",
+# damit main nicht mit Bot-Commits vollläuft.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/hai_grafik.py
+      - .github/workflows/hai-grafik.yml
+
+permissions:
+  contents: write
+
+jobs:
+  grafik:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Grafik erzeugen
+        run: python3 tools/hai_grafik.py "$RUNNER_TEMP/hai-grafik.svg"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - name: Auf den Zweig "grafik" legen
+        run: |
+          mkdir "$RUNNER_TEMP/ausgabe"
+          mv "$RUNNER_TEMP/hai-grafik.svg" "$RUNNER_TEMP/ausgabe/"
+          cd "$RUNNER_TEMP/ausgabe"
+          git init -q -b grafik
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hai-grafik.svg
+          git commit -q -m "Hai-Grafik $(date -u +%F)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" grafik
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
