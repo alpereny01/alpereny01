@@ -10,15 +10,19 @@
 
 <br />
 
+<h3 align="center">Woran ich gerade baue: Azubi Lab</h3>
+
 <p align="center">
-  <img src="assets/azubi-lab.svg" width="100%" alt="Azubi Lab" />
+  Eine Lernplattform für FISI-Azubis. Statt Netzwerk und IT nur aus dem Buch zu lernen,<br />
+  konfiguriert man simulierte Switches und Windows-PCs, löst Support-Tickets wie im echten Job<br />
+  und übt für die IHK-Prüfung. Alles im Browser.
 </p>
 
 <p align="center">
-  <b>Azubi Lab</b> &nbsp;—&nbsp; Netzwerk-Labore, Störungstickets, IHK-Prüfung. Im Browser.
-  <br />
-  <sub>privat. vorerst.</sub>
+  <img src="assets/azubi-lab.svg" width="100%" alt="Azubi Lab: Labor-Konsole mit VLAN-Aufgabe" />
 </p>
+
+<p align="center"><sub>privat. vorerst.</sub></p>
 
 <br />
 
