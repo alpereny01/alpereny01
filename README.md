@@ -19,6 +19,10 @@
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/alpereny01/alpereny01/grafik/hai-grafik.svg" width="100%" alt="Contributions der letzten 12 Monate: ein Hai frisst die Commits" />
+</p>
+
+<p align="center">
   <img src="assets/stack.svg" width="100%" alt="Stack: TypeScript, Next.js, React, Python, Bash, Blender, Claude Code" />
 </p>
 
