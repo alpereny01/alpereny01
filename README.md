@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <sub>FISI-Azubi @ ACP &nbsp;·&nbsp; Solution Specialist @ optigin</sub>
+  <sub>FISI-Azubi @ ACP &nbsp;·&nbsp; IT Solution Specialist @ optigin</sub>
   <br /><br />
   <a href="https://www.linkedin.com/in/alperen-yardimci/"><img src="https://img.shields.io/badge/LinkedIn-ff7a2f?style=for-the-badge&labelColor=0d1117" alt="LinkedIn" /></a>
 </p>
