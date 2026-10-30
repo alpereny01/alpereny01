@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" width="1000" height="350" role="img" aria-label="Azubi Lab: In der Labor-Konsole wird ein VLAN angelegt, ein Port zugewiesen und die Konfiguration gespeichert">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  <clipPath id="karte"><rect width="1000" height="350" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#karte)">
+<style>.blink{animation:blink .9s steps(1) infinite}@keyframes blink{50%{opacity:0}}</style>
+<rect width="1000" height="350" fill="url(#bg)"/>
+<rect width="1000" height="40" fill="#000" fill-opacity=".3"/>
+<circle cx="24" cy="20" r="6" fill="#3a3f4b"/><circle cx="44" cy="20" r="6" fill="#3a3f4b"/><circle cx="64" cy="20" r="6" fill="#3a3f4b"/>
+<text x="500" y="25" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#fff" fill-opacity=".6">Azubi Lab · Labor · Switch-OG1 › Konsole</text>
+<line x1="630" x2="630" y1="40" y2="350" stroke="#fff" stroke-opacity=".08"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0267;0.0367;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1#</text>
+    <clipPath id="z0"><rect x="121.7" y="58" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;104.4;113.1;121.8;130.5;139.2;147.9;156.6;165.3;165.3;0" keyTimes="0;0.05;0.0537;0.0573;0.061;0.0647;0.0683;0.072;0.0757;0.0793;0.083;0.0867;0.0903;0.094;0.0977;0.1013;0.105;0.1087;0.1123;0.116;0.1197;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z0)" x="121.7" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> configure terminal</text>
+  </g>
+<g class="blink"><rect x="121.7" y="61" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.0467;0.05;0.12;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="122.7;122.7;131.4;140.1;148.8;157.5;166.2;174.9;183.6;192.3;201;209.7;218.4;227.1;235.8;244.5;253.2;261.9;270.6;279.3;288;288;122.7" keyTimes="0;0.05;0.0537;0.0573;0.061;0.0647;0.0683;0.072;0.0757;0.0793;0.083;0.0867;0.0903;0.094;0.0977;0.1013;0.105;0.1087;0.1123;0.116;0.1197;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.13;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1(config)#</text>
+    <clipPath id="z1"><rect x="191.3" y="83" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;69.6;0" keyTimes="0;0.1433;0.147;0.1507;0.1543;0.158;0.1617;0.1653;0.169;0.1727;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z1)" x="191.3" y="99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> vlan 20</text>
+  </g>
+<g class="blink"><rect x="191.3" y="86" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.14;0.1433;0.1933;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="192.3;192.3;201;209.7;218.4;227.1;235.8;244.5;253.2;261.9;261.9;192.3" keyTimes="0;0.1433;0.147;0.1507;0.1543;0.158;0.1617;0.1653;0.169;0.1727;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1933;0.2033;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="124" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1(config-vlan-20)#</text>
+    <clipPath id="z2"><rect x="260.9" y="108" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;104.4;113.1;121.8;130.5;139.2;147.9;147.9;0" keyTimes="0;0.2167;0.2203;0.224;0.2277;0.2313;0.235;0.2387;0.2423;0.246;0.2497;0.2533;0.257;0.2607;0.2643;0.268;0.2717;0.2753;0.279;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z2)" x="260.9" y="124" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> name Buchhaltung</text>
+  </g>
+<g class="blink"><rect x="260.9" y="111" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.2133;0.2167;0.2933;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="261.9;261.9;270.6;279.3;288;296.7;305.4;314.1;322.8;331.5;340.2;348.9;357.6;366.3;375;383.7;392.4;401.1;409.8;409.8;261.9" keyTimes="0;0.2167;0.2203;0.224;0.2277;0.2313;0.235;0.2387;0.2423;0.246;0.2497;0.2533;0.257;0.2607;0.2643;0.268;0.2717;0.2753;0.279;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2933;0.3033;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="149" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1(config-vlan-20)#</text>
+    <clipPath id="z3"><rect x="260.9" y="133" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;104.4;113.1;121.8;130.5;139.2;147.9;147.9;0" keyTimes="0;0.3167;0.3203;0.324;0.3277;0.3313;0.335;0.3387;0.3423;0.346;0.3497;0.3533;0.357;0.3607;0.3643;0.368;0.3717;0.3753;0.379;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z3)" x="260.9" y="149" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> interface 1/1/12</text>
+  </g>
+<g class="blink"><rect x="260.9" y="136" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3133;0.3167;0.3867;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="261.9;261.9;270.6;279.3;288;296.7;305.4;314.1;322.8;331.5;340.2;348.9;357.6;366.3;375;383.7;392.4;401.1;409.8;409.8;261.9" keyTimes="0;0.3167;0.3203;0.324;0.3277;0.3313;0.335;0.3387;0.3423;0.346;0.3497;0.3533;0.357;0.3607;0.3643;0.368;0.3717;0.3753;0.379;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3867;0.3967;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="174" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1(config-if)#</text>
+    <clipPath id="z4"><rect x="217.4" y="158" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;104.4;113.1;121.8;130.5;130.5;0" keyTimes="0;0.41;0.4137;0.4173;0.421;0.4247;0.4283;0.432;0.4357;0.4393;0.443;0.4467;0.4503;0.454;0.4577;0.4613;0.465;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z4)" x="217.4" y="174" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> vlan access 20</text>
+  </g>
+<g class="blink"><rect x="217.4" y="161" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.4067;0.41;0.48;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="218.4;218.4;227.1;235.8;244.5;253.2;261.9;270.6;279.3;288;296.7;305.4;314.1;322.8;331.5;340.2;348.9;348.9;218.4" keyTimes="0;0.41;0.4137;0.4173;0.421;0.4247;0.4283;0.432;0.4357;0.4393;0.443;0.4467;0.4503;0.454;0.4577;0.4613;0.465;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.49;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="199" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1(config-if)#</text>
+    <clipPath id="z5"><rect x="217.4" y="183" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;34.8;0" keyTimes="0;0.5033;0.507;0.5107;0.5143;0.518;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z5)" x="217.4" y="199" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> end</text>
+  </g>
+<g class="blink"><rect x="217.4" y="186" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5;0.5033;0.5333;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="218.4;218.4;227.1;235.8;244.5;253.2;253.2;218.4" keyTimes="0;0.5033;0.507;0.5107;0.5143;0.518;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5333;0.5433;0.9467;1" dur="15s" repeatCount="indefinite"/>
+    <text x="26" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b949e" xml:space="preserve">switch-og1#</text>
+    <clipPath id="z6"><rect x="121.7" y="208" width="0" height="22">
+      <animate attributeName="width" values="0;0;8.7;17.4;26.1;34.8;43.5;52.2;60.9;69.6;78.3;87;95.7;104.4;113.1;113.1;0" keyTimes="0;0.5567;0.5603;0.564;0.5677;0.5713;0.575;0.5787;0.5823;0.586;0.5897;0.5933;0.597;0.6007;0.6043;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <text clip-path="url(#z6)" x="121.7" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#f4f2ff" xml:space="preserve"> write memory</text>
+  </g>
+<g class="blink"><rect x="121.7" y="211" width="8" height="16" fill="#ff7a2f" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5533;0.5567;0.6877;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="122.7;122.7;131.4;140.1;148.8;157.5;166.2;174.9;183.6;192.3;201;209.7;218.4;227.1;235.8;235.8;122.7" keyTimes="0;0.5567;0.5603;0.564;0.5677;0.5713;0.575;0.5787;0.5823;0.586;0.5897;0.5933;0.597;0.6007;0.6043;0.9467;1" calcMode="discrete" dur="15s" repeatCount="indefinite"/>
+  </rect></g>
+<text x="26" y="249" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#6e7681" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.62;0.63;0.9467;1" dur="15s" repeatCount="indefinite"/>Copying configuration: [Success]</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.67;0.9467;1" dur="15s" repeatCount="indefinite"/>
+  <g><animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0" keyTimes="0;0.66;0.6867;1" dur="15s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.2 1.4 0.5 1;0 0 1 1"/>
+  <rect x="22" y="263" width="586" height="46" rx="12" fill="#1f242d" stroke="#30363d"/>
+  <rect x="22" y="263" width="4" height="46" rx="2" fill="#ff7a2f"/>
+  <circle cx="46" cy="286" r="13" fill="#ff7a2f"/>
+  <text x="46" y="291" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0d1117">T</text>
+  <text x="68" y="283" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="800" fill="#f0f3f6">Tutor</text>
+  <text x="68" y="300" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1d9">Stark! Port 1/1/12 hängt jetzt im VLAN 20, und die Config ist gespeichert.</text>
+  </g>
+</g>
+<text x="654" y="72" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff" fill-opacity=".5">AUFGABEN</text>
+<rect x="654" y="84" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2733;0.2833;0.9467;1" dur="15s" repeatCount="indefinite"/><rect x="654" y="84" width="18" height="18" rx="5" fill="#ff7a2f"/>
+    <path d="M658 93l4 4l7 -8" fill="none" stroke="#0d1117" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="682" y="98" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#f4f2ff">VLAN 20 „Buchhaltung“ anlegen</text>
+<rect x="654" y="114" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.47;0.9467;1" dur="15s" repeatCount="indefinite"/><rect x="654" y="114" width="18" height="18" rx="5" fill="#ff7a2f"/>
+    <path d="M658 123l4 4l7 -8" fill="none" stroke="#0d1117" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="682" y="128" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#f4f2ff">Port 1/1/12 ins VLAN 20</text>
+<rect x="654" y="144" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.62;0.63;0.9467;1" dur="15s" repeatCount="indefinite"/><rect x="654" y="144" width="18" height="18" rx="5" fill="#ff7a2f"/>
+    <path d="M658 153l4 4l7 -8" fill="none" stroke="#0d1117" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="682" y="158" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#f4f2ff">Konfiguration speichern</text>
+<line x1="815" y1="210" x2="930" y2="282" stroke="#6e7681" stroke-width="2.5" opacity=".8"/>
+<line x1="815" y1="210" x2="700" y2="282" stroke="#fff" stroke-opacity=".3" stroke-width="2.5" stroke-dasharray="6 6"/>
+<line x1="815" y1="210" x2="700" y2="282" stroke="#ff7a2f" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.47;0.9467;1" dur="15s" repeatCount="indefinite"/></line>
+<circle r="5" fill="#f0f3f6" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4667;0.4733;0.9333;0.9467;1" dur="15s" repeatCount="indefinite"/>
+  <animateMotion path="M815 210L700 282L815 210" dur="1.6s" repeatCount="indefinite"/>
+</circle>
+<g transform="translate(753 188)">
+  <rect width="124" height="36" rx="7" fill="#1f242d" stroke="#6e7681" stroke-width="1.5"/>
+  <rect x="10" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="23" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="36" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="49" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="62" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="75" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="88" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/><rect x="101" y="20" width="9" height="8" rx="1.5" fill="#3a3f4b"/>
+  <rect x="75" y="20" width="9" height="8" rx="1.5" fill="#ff7a2f" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.47;0.9467;1" dur="15s" repeatCount="indefinite"/></rect>
+  <text x="10" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#c9d1d9">switch-og1</text>
+</g>
+<g transform="translate(678 282)">
+    <rect width="44" height="28" rx="4" fill="#1f242d" stroke="#6e7681" stroke-width="1.5"/>
+    <rect x="17" y="28" width="10" height="5" fill="#3a3f4b"/><rect x="10" y="33" width="24" height="3" rx="1.5" fill="#3a3f4b"/>
+  </g>
+  <text x="700" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#fff" fill-opacity=".7">PC-Buchhaltung</text>
+<g transform="translate(908 282)">
+    <rect width="44" height="28" rx="4" fill="#1f242d" stroke="#6e7681" stroke-width="1.5"/>
+    <rect x="17" y="28" width="10" height="5" fill="#3a3f4b"/><rect x="10" y="33" width="24" height="3" rx="1.5" fill="#3a3f4b"/>
+  </g>
+  <text x="930" y="332" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#fff" fill-opacity=".7">PC-Vertrieb</text>
+<text x="727.5" y="253" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#ff7a2f" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.47;0.9467;1" dur="15s" repeatCount="indefinite"/>VLAN 20</text>
+<text x="886.5" y="253" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#8b949e" opacity=".8">VLAN 10</text>
+</g>
+</svg>
