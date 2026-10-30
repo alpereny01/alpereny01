@@ -10,12 +10,8 @@
 
 <br />
 
-<h3 align="center">Woran ich gerade baue: Azubi Lab</h3>
-
 <p align="center">
-  Eine Lernplattform für FISI-Azubis. Statt Netzwerk und IT nur aus dem Buch zu lernen,<br />
-  konfiguriert man simulierte Switches und Windows-PCs, löst Support-Tickets wie im echten Job<br />
-  und übt für die IHK-Prüfung. Alles im Browser.
+  <img src="assets/baustelle.svg" width="100%" alt="Woran ich gerade baue: Azubi Lab. Eine Lernplattform für FISI-Azubis: simulierte Switches und Windows-PCs konfigurieren, Support-Tickets wie im echten Job lösen und für die IHK-Prüfung üben. Alles im Browser." />
 </p>
 
 <p align="center">
